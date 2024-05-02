@@ -1,0 +1,31 @@
+name: arch_design
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  http_manager:
+    path: ./packages/http_manager/
+  data:
+    path: ./packages/data/
+  domain:
+    path: ./packages/domain/
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.5
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  bloc_test: ^9.1.7
+  melos: ^6.0.0
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
